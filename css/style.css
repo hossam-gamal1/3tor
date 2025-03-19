@@ -1,0 +1,91 @@
+body{
+    direction: rtl;
+}
+.btn-navbar{
+    background-color: #4E342E;
+}
+.imgnavbar{
+    width: 201px;
+    height: 59px;
+}
+.col-sm-12{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.btn-btn{
+    background-color: #4E342E;
+    width: 150px;
+}
+.btn-btn:hover{
+    background-color: #6e4e47;
+}
+.products{
+    background-color: #EADDCE;
+}
+.main-title{
+    color: #271F15;
+    font-size: 24px;
+}
+.slider{
+    direction:ltr;
+}
+/* landing page */
+.landing-page .container{
+    height: 100vh;
+    background-image: url(../images/landing-page.peg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.landing-page .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.landing-page .cards{
+    
+}
+.landing-page .card{
+    background-color: transparent !important;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.contaner {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #C19A6B;
+    border-radius: 8px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.mission, .vision {
+    padding: 1px;
+    border: 1px solid #C19A6B;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.image-container img {
+    max-width: 30%;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+.footer{
+    background-color: #F3EBE1;
+}
